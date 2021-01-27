@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web&display=swap");
+
+/* VARIABLES */
+:root {
+  --blue: rgb(51, 204, 204);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 80px;
+}
+.logo img {
+  height: 100%;
+}
+
+/* NAVIGATION BAR AND LANDING PAGE */
+
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/hair.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.nav-bar {
+  font-family: "Titillium Web", sans-serif;
+  padding: 0 10rem;
+  background-color: rgba(41, 41, 41, 0.8);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar li {
+  font-weight: 550;
+  letter-spacing: 0.2px;
+  font-size: 1.3rem;
+  padding-right: 1.3rem;
+  display: inline-block;
+  list-style: none;
+}
+.nav-bar li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.txt {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  margin: 0 10%;
+}
+
+.txt h1 {
+  font-size: 3.7rem;
+}
+.txt h3 {
+  font-size: 2.4rem;
+}
+.blue {
+  color: var(--blue);
+}
